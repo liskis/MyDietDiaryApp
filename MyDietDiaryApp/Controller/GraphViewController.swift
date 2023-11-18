@@ -34,7 +34,7 @@ class GraphViewController: UIViewController {
     }
 
     var toolBar: UIToolbar {
-        let toolBarRect = CGRect(x: 0, y: 0, width: view.frame.size.width, height: 35)
+        let toolBarRect = CGRect(x: 0, y: 0, width: view.frame.size.width, height: 40)
         let toolBar = UIToolbar(frame: toolBarRect)
         let doneItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(didTapDone))
         toolBar.setItems([doneItem], animated: true)
